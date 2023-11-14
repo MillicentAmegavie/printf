@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * printf_char - The Entry Point.
+ * print_c - The Entry Point.
  * Description - The function that prints characters.
- * @val - The arguments.
+ * @val: A va_list containing the character to be printed..
  * Return: 1.
  */
 
@@ -13,5 +13,5 @@ int print_c(va_list val)
 
 	m = va_arg(val, int);
 	_putchar(m);
-	return(1);
+	return (1);
 }
